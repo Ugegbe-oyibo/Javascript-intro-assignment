@@ -1,13 +1,14 @@
+// Q.1: Create a function that checks if the input/parameter is an even number.
 function calEven (num) {
   if (num % 2 === 0) {
-    return `${num}  is an even number`;
+    return `${15}  is an even number`;
   } else {
     return `${num}  is not an even number`;
   };
 }
 console.log (calEven (6));
  
-// Question two
+// Question two. Create a function that prints to the console n1 to n2. where n1 is the first input/parameter and n2 is the second input/parameter
  
 function nameTwo (n1, n2) {
     for (let n = n1; n<=n2; n++)
@@ -18,7 +19,7 @@ function nameTwo (n1, n2) {
 nameTwo (4, 16);
  
  
- 
+ //Create a function that sum the values in-between two numbers. eg calcFunc(1,3) returns 6. ie. 1+2+3.
 function add (start, end) {
     let sum = 0;  
     // declaration. initalization is automatic
